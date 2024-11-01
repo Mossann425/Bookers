@@ -1,0 +1,14 @@
+<div class ="show">
+ <div class="show-title">
+  <p class="show-contetnt">Title:</p>
+  <p><%= @book.title %></p>
+ </div>
+<div class="show-body">
+ <p  class="show-contetnt">Body:</p>
+ <p><%= @book.body %></p>
+</div>
+ <%= link_to "Edit", edit_book_path(@book.id) %>
+
+  |
+  <a href="/books">back</a>
+</div>
